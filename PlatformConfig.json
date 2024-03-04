@@ -1,0 +1,29 @@
+{
+  "database": {
+    "host": "xxx",
+    "user": "xxx",
+    "password": "xxx",
+    "port": 3306,
+    "databaseName": "xxx"
+  },
+  "platformDomain": "http://127.0.0.1:3100",
+  "platformPort": 3100,
+  "platformConfig": {
+    "title": "MyBricks aPaaS Platform"
+  },
+  "adminUser": {
+    "email": "admin@mybricks.world",
+    "password": "123456"
+  },
+  "installApps": [
+    {
+      "type": "oss",
+      "version": "1.2.74",
+      "namespace": "mybricks-app-pcspa"
+    },
+    {
+      "type": "npm",
+      "path": "mybricks-app-login@0.0.5"
+    }
+  ]
+}

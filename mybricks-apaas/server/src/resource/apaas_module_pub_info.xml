@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="apaas_module_pub_info">
+    <insert id="batchCreate">
+        insert into apaas_module_pub_info
+        (
+        id,
+        module_id,
+        content,
+        ext_name,
+        file_name,
+        file_id,
+        parent_id,
+        version,
+        commit_info,
+        status,
+        creator_id,
+        creator_name,
+        create_time
+        )
+        <foreach collection="pubContentList" item="pubContent" open="values " separator="," close="" index="index">
+            <trim prefix="(" suffix=")" suffixOverrides=",">
+                #{pubContent.id},
+                #{moduleId},
+                #{pubContent.content},
+                #{pubContent.extName},
+                #{pubContent.fileName},
+                #{pubContent.fileId},
+                #{pubContent.parentId},
+                #{version},
+                #{commitInfo},
+                1,
+                #{creatorId},
+                #{creatorName},
+                #{createTime}
+            </trim>
+        </foreach>
+    </insert>
+
+    <select id="getModulePubContent">
+        select * from apaas_module_pub_info
+        where module_id = #{id} 
+        order by create_time desc
+    </select>
+
+    <select id="queryPubInfo">
+        select * from apaas_module_pub_info where
+        status = #{status}
+        and version = #{version}
+        and module_id = #{moduleId} 
+        <if test="extNameList">
+            and ext_name in
+            <foreach collection="extNameList" open="(" close=")" separator="," item="extName" index="i">
+                #{extName}
+            </foreach>
+        </if>
+        order by id desc
+    </select>
+
+    <select id="getLatestFileList">
+        select
+            id, 
+            module_id,
+            version,
+            ext_name,
+            file_name,
+            file_id,
+            parent_id,
+            creator_id,
+            creator_name,
+            create_time,
+            commit_info
+        from apaas_module_pub_info where
+        status = #{status}
+        and module_id = #{moduleId}
+        <if test="parentId">
+            and parent_id = #{parentId}
+        </if>
+        order by id desc
+    </select>
+</mapper>

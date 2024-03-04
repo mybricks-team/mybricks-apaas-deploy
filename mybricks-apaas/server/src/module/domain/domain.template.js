@@ -1,0 +1,187 @@
+'use strict';
+const _0x603b0e = _0x56ce;
+function _0x3a65() {
+    const _0x2de351 = [
+        'or:\x20(...ar',
+        ';\x0a\x20\x20};\x0a\x20\x20c',
+        '\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',
+        'gs)\x20=>\x20{\x0a\x20',
+        'olve,\x20reje',
+        'andledSql,',
+        '{\x0a\x20\x20\x20\x20\x20\x20\x20\x20',
+        'st\x20_execSQ',
+        '\x20handledSq',
+        'et\x20GLOBAL_',
+        '\x20\x20\x20\x20\x20\x20})\x0a\x20',
+        'DOMAIN_EXE',
+        '=\x20(taskId)',
+        '内sql出错:\x20\x27+',
+        '};\x0a\x20\x20const',
+        '(taskId)\x20=',
+        '\x20return\x20{\x0a',
+        'LATE',
+        '\x20\x20\x20\x20\x20\x20\x20\x20on',
+        'reject(err',
+        'defineProp',
+        'ce:\x20(...ar',
+        'let\x20GLOBAL',
+        '19291650YAyTFq',
+        'urn\x20new\x20Pr',
+        'le.log(\x27【执',
+        's:\x20args\x20})',
+        '\x20=\x20Hooks(_',
+        '\x20null;\x0a\x20\x20l',
+        '\x20\x20\x20\x20\x20\x20\x20\x20}\x0a',
+        '\x20Logger\x20=\x20',
+        '\x20\x20GLOBAL_R',
+        'l\x20=\x20sql?.r',
+        'omise((res',
+        'ESOLVE(dat',
+        '\x20\x20\x20\x20\x20retur',
+        '\x20\x20\x20\x20\x20\x20\x20let',
+        'l\x20=\x20UTIL(_',
+        'ct)\x20=>\x20{\x0a\x20',
+        ';\x0a\x20\x20\x20\x20\x20\x20\x20\x20',
+        ';const\x20Uti',
+        'gs\x20})\x20=>\x20{',
+        '207triHWl',
+        '.log(...ar',
+        '\x20\x20\x20\x20\x20\x20\x20\x20})',
+        '\x20\x20\x20\x20\x20conso',
+        '行SQL】：开始执行',
+        '.then(res\x20',
+        '\x20error?.me',
+        '\x20throw\x20new',
+        '20FzeigU',
+        'ID_\x20=\x20\x27rtE',
+        'sql,\x20{\x20arg',
+        'return\x20{\x0a\x20',
+        '(sql,\x20{\x20ar',
+        '\x20\x20},\x0a\x20\x20\x20\x20\x20',
+        '\x20_execSQL(',
+        '__esModule',
+        'og:\x20(...ar',
+        '\x20\x20\x20\x20\x20\x20};\x0a\x20',
+        '4rTZGLL',
+        '742116LiFrKW',
+        ')\x27,\x20\x27ig\x27),',
+        '\x20resolve(r',
+        'a)\x0a\x20\x20\x20\x20\x20\x20\x20',
+        '\x20\x20\x20\x20\x20\x20\x20\x20\x20l',
+        'iqueId:\x20()',
+        '\x20(taskId)\x20',
+        'onst\x20hooks',
+        '\x20args);\x0a\x20\x20',
+        '\x20\x20}\x0a\x20\x20\x20\x20\x20\x20',
+        '\x20\x20};\x0a\x20\x20con',
+        '\x20\x20\x20\x20\x20genUn',
+        'ch\x20(error)',
+        'xGjlWANpBB',
+        'ssage);\x0a\x20\x20',
+        '},\x0a\x20\x20\x20\x20\x20\x20}',
+        '\x0a\x20\x20\x20\x20\x20\x20};\x0a',
+        '\x20=>\x20{\x0a\x20\x20\x20\x20',
+        'EJECT(msg)',
+        '\x20RegExp(\x27(',
+        'Luo\x27;\x0a\x20\x20;c',
+        '509160LGSRHA',
+        '\x20execSQL:\x20',
+        '\x20\x20\x20\x20\x20const',
+        'xtId();\x0a\x20\x20',
+        'nst\x20_EXEC_',
+        '\x20\x20return\x20{',
+        '=\x20null;\x0a\x20\x20',
+        '\x20\x20\x20});\x0a\x20\x20\x20',
+        '\x0a\x20\x20;const\x20',
+        'Finished:\x20',
+        'REJECT\x20=\x20n',
+        'null;\x0a\x20\x20le',
+        '行SQL】：执行沙箱',
+        '\x20\x20onError:',
+        'st\x20conn\x20=\x20',
+        '\x20res\x20=\x20nul',
+        '沙箱内sql\x27)\x0a\x20',
+        'C_ID_);\x0a\x20\x20',
+        '=>\x20{\x0a\x20\x20\x20\x20\x20',
+        'W_FLAKE\x20=\x20',
+        'l;\x0a\x20\x20\x20\x20\x20\x20\x20',
+        '\x20\x20\x20\x20\x20\x20\x20cat',
+        'gs)\x0a\x20\x20\x20\x20\x20\x20',
+        ',\x20args)\x20=>',
+        '\x20\x20\x20\x20\x20\x20\x20err',
+        'return\x20SNO',
+        '\x20},\x0a\x20\x20\x20\x20\x20\x20',
+        'EXEC_ID_);',
+        '?:\x5cn|\x5ct|\x5cr',
+        'async\x20(sql',
+        '\x20Error(msg',
+        '\x20\x20\x20\x20\x20\x20\x20ret',
+        '>\x20{\x0a\x20\x20\x20\x20\x20\x20',
+        '\x20\x20\x20\x20\x20\x20\x20try',
+        'es)\x0a\x20\x20\x20\x20\x20\x20',
+        '\x20{\x0a\x20\x20\x20\x20\x20\x20\x20',
+        '1018716womiWW',
+        'L\x20=\x20async\x20',
+        'erty',
+        '_CODE_TEMP',
+        '3299652gLxsyb',
+        'logger\x20=\x20L',
+        ')\x0a\x20\x20\x20\x20\x20\x20\x20\x20',
+        '\x20};\x0a\x0a\x20\x20;co',
+        'conn.exe(h',
+        '\x20\x20\x20console',
+        '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20',
+        '\x0a\x20\x20let\x20SNO',
+        'eplace(new',
+        'or)\x0a\x20\x20\x20\x20\x20\x20',
+        'onst\x20UTIL\x20',
+        '\x20\x20\x20\x20\x20\x20\x20tra',
+        'ogger(_EXE',
+        'st\x20Hooks\x20=',
+        '\x20\x20\x20\x20\x20\x20\x20}\x0a\x20',
+        'ull;\x0a\x20\x20con',
+        '724668WeyDHO',
+        't\x20DB_CONN\x20',
+        '\x20\x20\x20return\x20',
+        'gs)\x20=>\x20{},',
+        '(data)\x20=>\x20',
+        '\x20\x20\x20\x20},\x0a\x20\x20\x20',
+        'DB_CONN;\x0a\x20',
+        'W_FLAKE.Ne',
+        'n\x20\x27\x20\x27;\x0a\x20\x20\x20',
+        '_RESOLVE\x20=',
+        '\x20(msg)\x20=>\x20',
+        '3430994jOZxmd',
+        '\x20($0,\x20$1)\x20',
+        '\x0a\x20\x20\x20\x20\x20\x20con'
+    ];
+    _0x3a65 = function () {
+        return _0x2de351;
+    };
+    return _0x3a65();
+}
+(function (_0x1f8919, _0x9675e9) {
+    const _0x20da0c = _0x56ce, _0x480f7a = _0x1f8919();
+    while (!![]) {
+        try {
+            const _0x5a322d = -parseInt(_0x20da0c(0xa8)) / (-0x51 * -0x5b + 0x1 * -0x15b5 + -0x715) * (parseInt(_0x20da0c(0xf6)) / (0x2f * 0x8d + -0x1f03 + 0x12 * 0x49)) + -parseInt(_0x20da0c(0xe2)) / (0x1 * -0x1a1c + 0x13f3 * -0x1 + 0x2e12) + -parseInt(_0x20da0c(0xa9)) / (0x889 * 0x1 + 0xfe * 0x26 + -0x2e39) * (parseInt(_0x20da0c(0x9e)) / (0x1 * -0x531 + -0xa6b + 0xfa1)) + -parseInt(_0x20da0c(0xe6)) / (0x3e8 + -0x231 * -0x11 + 0x2923 * -0x1) + parseInt(_0x20da0c(0x101)) / (0x34 * 0x4c + -0x397 + -0xbd2) + -parseInt(_0x20da0c(0xbe)) / (0xaa2 * -0x2 + 0x259f + -0x1053) * (-parseInt(_0x20da0c(0x96)) / (0x2d * 0xc5 + 0x1590 + 0x8 * -0x705)) + parseInt(_0x20da0c(0x83)) / (0xa6d + -0x3ce * 0x3 + 0x107);
+            if (_0x5a322d === _0x9675e9)
+                break;
+            else
+                _0x480f7a['push'](_0x480f7a['shift']());
+        } catch (_0x1c01ed) {
+            _0x480f7a['push'](_0x480f7a['shift']());
+        }
+    }
+}(_0x3a65, -0x13f06e + 0x31 * 0x2989 + 0x183ab5 * 0x1));
+Object[_0x603b0e(0x118) + _0x603b0e(0xe4)](exports, _0x603b0e(0xa5), { 'value': !![] }), exports[_0x603b0e(0x10f) + _0x603b0e(0xe5) + _0x603b0e(0x115)] = void (0x43e + 0x1d3a + 0x1c * -0x132);
+const DOMAIN_EXE_CODE_TEMPLATE = _0x603b0e(0xed) + _0x603b0e(0xd1) + _0x603b0e(0xc9) + _0x603b0e(0xf7) + _0x603b0e(0xc4) + _0x603b0e(0x11a) + _0x603b0e(0xff) + _0x603b0e(0x88) + _0x603b0e(0x10d) + _0x603b0e(0xc8) + _0x603b0e(0xf5) + _0x603b0e(0x10b) + _0x603b0e(0xe3) + _0x603b0e(0xa2) + _0x603b0e(0x95) + _0x603b0e(0x103) + _0x603b0e(0xcc) + _0x603b0e(0xfc) + _0x603b0e(0xc0) + _0x603b0e(0x10c) + _0x603b0e(0x8c) + _0x603b0e(0xee) + _0x603b0e(0xbc) + _0x603b0e(0xda) + _0x603b0e(0xaa) + _0x603b0e(0x102) + _0x603b0e(0xd0) + _0x603b0e(0x8f) + _0x603b0e(0xfe) + _0x603b0e(0xc5) + _0x603b0e(0xf8) + _0x603b0e(0xea) + _0x603b0e(0x109) + _0x603b0e(0xb1) + _0x603b0e(0x112) + _0x603b0e(0x8a) + _0x603b0e(0x113) + _0x603b0e(0xde) + _0x603b0e(0xa1) + _0x603b0e(0xad) + _0x603b0e(0xa6) + _0x603b0e(0x107) + _0x603b0e(0x106) + _0x603b0e(0xeb) + _0x603b0e(0x97) + _0x603b0e(0xd4) + _0x603b0e(0xfb) + _0x603b0e(0xd6) + _0x603b0e(0x104) + _0x603b0e(0x107) + _0x603b0e(0x106) + _0x603b0e(0xeb) + _0x603b0e(0x97) + _0x603b0e(0xd4) + _0x603b0e(0xfb) + _0x603b0e(0xf1) + _0x603b0e(0x119) + _0x603b0e(0xf9) + _0x603b0e(0xb9) + _0x603b0e(0xb3) + _0x603b0e(0xf3) + _0x603b0e(0xaf) + _0x603b0e(0xd0) + _0x603b0e(0x114) + _0x603b0e(0x116) + _0x603b0e(0xc7) + _0x603b0e(0xfa) + _0x603b0e(0x10a) + _0x603b0e(0x8b) + _0x603b0e(0x8e) + _0x603b0e(0xac) + _0x603b0e(0xd8) + _0x603b0e(0xcb) + _0x603b0e(0x100) + _0x603b0e(0x10a) + _0x603b0e(0x8b) + _0x603b0e(0xbb) + _0x603b0e(0xec) + _0x603b0e(0x9d) + _0x603b0e(0xdc) + _0x603b0e(0xe8) + _0x603b0e(0xb8) + _0x603b0e(0x105) + _0x603b0e(0xf0) + _0x603b0e(0x110) + _0x603b0e(0xba) + _0x603b0e(0xc3) + _0x603b0e(0xec) + _0x603b0e(0xbf) + _0x603b0e(0xdb) + _0x603b0e(0xd5) + _0x603b0e(0xe1) + _0x603b0e(0x90) + _0x603b0e(0xcd) + _0x603b0e(0xd2) + _0x603b0e(0xdd) + _0x603b0e(0x84) + _0x603b0e(0x8d) + _0x603b0e(0x108) + _0x603b0e(0x92) + (_0x603b0e(0x106) + _0x603b0e(0xdf) + _0x603b0e(0xe1) + _0x603b0e(0x106) + _0x603b0e(0x99) + _0x603b0e(0x85) + _0x603b0e(0x9a) + _0x603b0e(0xce) + _0x603b0e(0x106) + _0x603b0e(0x106) + _0x603b0e(0xa4) + _0x603b0e(0xa0) + _0x603b0e(0x86) + _0x603b0e(0x9b) + _0x603b0e(0xd0) + _0x603b0e(0x106) + _0x603b0e(0x106) + _0x603b0e(0xab) + _0x603b0e(0xe0) + _0x603b0e(0x106) + _0x603b0e(0x10e) + _0x603b0e(0x106) + _0x603b0e(0xf4) + _0x603b0e(0x106) + _0x603b0e(0xd3) + _0x603b0e(0xb5) + _0x603b0e(0xe1) + _0x603b0e(0x106) + _0x603b0e(0x99) + _0x603b0e(0x85) + _0x603b0e(0xca) + _0x603b0e(0x111) + _0x603b0e(0x9c) + _0x603b0e(0xb7) + _0x603b0e(0x106) + _0x603b0e(0x106) + _0x603b0e(0x117) + _0x603b0e(0xef) + _0x603b0e(0x106) + _0x603b0e(0xb2) + _0x603b0e(0x98) + _0x603b0e(0x93) + _0x603b0e(0xa3) + _0x603b0e(0xb4) + _0x603b0e(0xae) + _0x603b0e(0xba) + _0x603b0e(0x106) + _0x603b0e(0xd7) + _0x603b0e(0xfd) + _0x603b0e(0xc1) + _0x603b0e(0x89) + _0x603b0e(0xa7) + _0x603b0e(0xe9) + _0x603b0e(0xc2) + _0x603b0e(0x9f) + _0x603b0e(0xb6) + _0x603b0e(0xbd) + _0x603b0e(0xb0) + _0x603b0e(0x87) + _0x603b0e(0xd9) + _0x603b0e(0xc6) + _0x603b0e(0xe7) + _0x603b0e(0xf2) + _0x603b0e(0xcf) + _0x603b0e(0x94) + _0x603b0e(0x91) + _0x603b0e(0xd9) + '\x0a');
+function _0x56ce(_0x35a8df, _0x6d8cdb) {
+    const _0x26c972 = _0x3a65();
+    return _0x56ce = function (_0x34dd71, _0x535bfa) {
+        _0x34dd71 = _0x34dd71 - (0x292 * 0x5 + 0x67d * -0x1 + -0x5da);
+        let _0x1b82a8 = _0x26c972[_0x34dd71];
+        return _0x1b82a8;
+    }, _0x56ce(_0x35a8df, _0x6d8cdb);
+}
+exports[_0x603b0e(0x10f) + _0x603b0e(0xe5) + _0x603b0e(0x115)] = DOMAIN_EXE_CODE_TEMPLATE;

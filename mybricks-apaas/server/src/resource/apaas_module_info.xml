@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="apaas_module_info">
+    <insert id="create">
+      insert into apaas_module_info
+      (
+      id,
+      name,
+      description,
+      origin_file_id,
+      version,
+      status,
+      creator_id,
+      creator_name,
+      create_time
+      )
+      values
+      (
+      #{id},
+      #{name},
+      #{description},
+      #{originFileId},
+      #{version},
+      1,
+      #{creatorId},
+      #{creatorName},
+      #{createTime}
+      )
+    </insert>
+
+    <select id='getLatestPubByFileId'>
+      select *
+      from apaas_module_info
+      where
+      origin_file_id = #{fileId}
+      order by create_time desc
+      limit 1 offset 0;
+    </select>
+
+    <select id="queryByFileId">
+       select *
+        from apaas_module_info
+        where origin_file_id = ${fileId}
+        order by create_time desc
+        limit #{limit} offset #{offset}
+    </select>
+
+    <select id="getModules">
+        select * from apaas_module_info
+        where id in (
+            select max(id)
+            from apaas_module_info
+            <if test="id">
+                where id = #{id}
+            </if>
+            group by origin_file_id
+        )
+        order by create_time desc
+    </select>
+
+    <select id="getProjectModuleInfo">
+        select * from apaas_project_info
+        where file_id = #{projectId}
+        order by create_time desc
+        limit 1
+    </select>
+
+    <insert id="createProjectModuleInfo">
+        insert into apaas_project_info
+        (
+        id,
+        file_id,
+        version,
+        module_info,
+        status,
+        creator_name,
+        create_time
+        )
+        values
+        (
+        #{id},
+        #{file_id},
+        #{version},
+        #{module_info},
+        1,
+        #{creator_name},
+        #{create_time}
+        )
+    </insert>
+</mapper>

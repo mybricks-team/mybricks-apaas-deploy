@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="apaas_service_pub">
+
+    <insert id="batchCreate">
+        insert into apaas_service_pub
+        (
+        id,
+        file_id,
+        service_id,
+        content,
+        name,
+        env,
+        creator_id,
+        creator_name,
+        project_id,
+        file_pub_id,
+        status,
+        create_time
+        )
+        <foreach collection="serviceContentList" item="serviceContent" open="values " separator="," close="" index="index">
+            <trim prefix="(" suffix=")" suffixOverrides=",">
+                #{serviceContent.mainKey},
+                #{fileId},
+                #{serviceContent.id},
+                #{serviceContent.code},
+                #{serviceContent.title},
+                #{env},
+                #{creatorId},
+                #{creatorName},
+                #{projectId},
+                #{filePubId},
+                #{status},
+                #{createTime}
+            </trim>
+        </foreach>
+    </insert>
+
+    <select id="getLatestPubByFileIdAndServiceId">
+        select * from apaas_service_pub 
+        where file_id = #{fileId} 
+        and service_id = #{serviceId}
+        and env = #{env}
+        and project_id is NULL
+        order by create_time desc 
+        limit 1
+    </select>
+
+    <select id="getLatestPubByProjectIdAndFileIdAndServiceId">
+        select * from apaas_service_pub 
+        where file_id = #{fileId} 
+        and service_id = #{serviceId}
+        and project_id = #{projectId}
+        and env = #{env}
+        order by create_time desc 
+        limit 1
+    </select>
+</mapper>

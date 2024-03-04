@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="apaas_app">
+    <select id="queryLatestAppList">
+        SELECT
+            name,
+            namespace,
+            icon,
+            description,
+            install_type,
+            type,
+            install_info,
+            version,
+            creator_name,
+            create_time
+        from apaas_app
+        WHERE status = 1
+        <if test="creatorName">
+            and creator_name like '%${creatorName}%'
+        </if>
+        and id in (select max(id) from apaas_app GROUP BY name)
+        order by create_time desc
+    </select>
+
+    <select id="getLatestAppByNamespace">
+        SELECT
+            *
+        from apaas_app
+        WHERE status = 1
+        and namespace = #{namespace}
+        order by id desc limit 1
+    </select>
+
+    <select id="getAppById">
+        SELECT
+            *
+        from apaas_app
+        WHERE status = 1
+        and id = #{id}
+    </select>
+
+    <select id="getAppByNamespace_Version">
+        SELECT
+            name,
+            namespace,
+            icon,
+            description,
+            install_type,
+            type,
+            install_info,
+            version,
+            creator_name,
+            create_time
+        from apaas_app
+        WHERE status = 1
+        and namespace = #{namespace}
+        and version = #{version}
+        order by create_time desc
+    </select>
+
+    <insert id="insert">
+        insert into apaas_app
+        (
+        id,
+        name,
+        namespace,
+        icon,
+        description,
+        install_type,
+        type,
+        install_info,
+        version,
+        creator_name,
+        create_time,
+        status
+        )
+        values
+        (
+        #{id},
+        #{name},
+        #{namespace},
+        #{icon},
+        #{description},
+        #{install_type},
+        #{type},
+        #{install_info},
+        #{version},
+        #{creator_name},
+        #{create_time},
+        #{status}
+        )
+    </insert>
+</mapper>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="apaas_gpt_log">
+  <insert id="insert">
+    insert into apaas_gpt_log (
+      id,
+      session,
+      user_name,
+      question,
+      answer,
+      judge,
+      suggested_answer,
+      create_time
+    ) values (
+      #{id},
+      #{session},
+      #{userName},
+      #{question},
+      #{answer},
+      #{judge},
+      #{suggestedAnswer},
+      #{createTime}
+    )
+  </insert>
+
+  <update id="update">
+    update apaas_gpt_log
+    set
+    suggested_answer = #{suggestedAnswer},
+    judge = #{judge}
+    where id = #{id}
+  </update>
+
+  <insert id="insertDocs">
+    insert into apaas_gpt_docs
+    (
+    id,
+    category,
+    question,
+    answer,
+    reference,
+    image,
+    score
+    )
+    <foreach collection="docs" item="item" open="values " separator="," close="" index="index">
+      <trim prefix="(" suffix=")" suffixOverrides=",">
+        #{item.id},
+        #{item.category},
+        #{item.question},
+        #{item.answer},
+        #{item.reference},
+        #{item.image},
+        #{item.score}
+      </trim>
+    </foreach>
+  </insert>
+
+  <select id="getKnowledgeCategory">
+    select
+    distinct category
+    from
+    apaas_gpt_docs
+  </select>
+
+  <select id="getKnowledgeByCategory">
+    select
+    category,
+    question
+    from
+    apaas_gpt_docs
+    where category = #{category}
+  </select>
+</mapper>
