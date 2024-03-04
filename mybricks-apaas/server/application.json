@@ -1,0 +1,16 @@
+{
+  "installApps": [
+    {
+      "type": "npm",
+      "path": "mybricks-apaas-platform-extend@0.0.3"
+    },
+    {
+      "type": "npm",
+      "path": "mybricks-app-pcspa@1.2.78"
+    },
+    {
+      "type": "npm",
+      "path": "mybricks-material@0.2.21"
+    }
+  ]
+}
